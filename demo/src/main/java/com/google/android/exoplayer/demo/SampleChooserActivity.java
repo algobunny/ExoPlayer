@@ -75,6 +75,11 @@ public class SampleChooserActivity extends Activity {
     group = new SampleGroup("Misc");
     group.addAll(Samples.MISC);
     sampleGroups.add(group);
+
+    group = new SampleGroup("News");
+    group.addAll(Samples.NEWS);
+    sampleGroups.add(group);
+
     ExpandableListView sampleList = (ExpandableListView) findViewById(R.id.sample_list);
     sampleList.setAdapter(new SampleAdapter(this, sampleGroups));
     sampleList.setOnChildClickListener(new OnChildClickListener() {

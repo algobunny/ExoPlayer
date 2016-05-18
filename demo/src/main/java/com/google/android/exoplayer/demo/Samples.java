@@ -250,6 +250,12 @@ import java.util.Locale;
         "http://vod.leasewebcdn.com/bbb.flv?ri=1024&rs=150&start=0", Util.TYPE_OTHER),
   };
 
+  public static final Sample[] NEWS = new Sample[] {
+          new Sample("WESH", "https://content.uplynk.com/channel/21cc54a6fc484e6ba580befaadf83502.m3u8?ad=weshmidroll", Util.TYPE_HLS),
+          new Sample("KCRA", "https://content.uplynk.com/channel/829a8c85f9e840c6bed963856c231428.m3u8?ad=kcramidroll", Util.TYPE_HLS),
+          new Sample("KCCI", "https://content.uplynk.com/channel/b7fea39aaff14c9aa9ab46db28c74fab.m3u8?ad=kccimidroll", Util.TYPE_HLS)
+  };
+
   private Samples() {}
 
 }
